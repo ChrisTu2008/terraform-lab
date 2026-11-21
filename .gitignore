@@ -1,6 +1,6 @@
-.terraform/
 *.tfstate
 *.tfstate.*
+.terraform/
 *.tfplan
-crash.log
-*.auto.tfvars
+*.tfvars
+!*.tfvars.example
